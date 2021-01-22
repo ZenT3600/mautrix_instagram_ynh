@@ -161,8 +161,8 @@ ynh_setup_source --dest_dir="$final_path"
 ynh_script_progression --message="Installing with pip..." --weight=194
 # Build mautrix-whatsapp
 base_directory=$PWD
-pip install --upgrade mautrix-instagram[all]
 cd $final_path
+ls
 
 cd $base_directory
 

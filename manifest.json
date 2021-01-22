@@ -49,7 +49,7 @@
 					"en": "A system user will be created. Invite @whatsappbot:localsynapse.servername from an authorized Matrix account to start bridging. Give the matrix server_name, not the full domain/url.",
 					"fr": "Un utilisateur système sera créé. Inviter @whatsappbot:localsynapse.servername depuis un compte Matrix autorisé pour démarrer une passerelle. Donner le nom du serveur matrix, pas le domaine/url complet."
 				},
-				"default": "whatsappbot"
+				"default": "instagrambot"
 			},
 			{
 				"name": "bot_is_synapse_admin",
@@ -85,7 +85,7 @@
 					"en": "The WhatsApp bot administrator does not need to be a local synapse account.",
 					"fr": "Le compte administrateur du robot WhatsApp peut ne pas être un compte local synapse."
 				},
-				"default": "Your main Matrix account"
+				"default": "@navanchauhan:yewsavin.com"
 			},
 			{
 				"name": "botusers",
@@ -95,7 +95,7 @@
 					"fr": "Choisissez le/les compte(s) Matrix autorisés à utiliser le robot WhatsApp"
 				},
 				"example": "admin or local or @johndoe:server.name or server.name or *",
-				"default": "admin",
+				"default": "local",
 				"help": {
 					"en": "Either the administrator only (admin), all local synapse users (local), a remote or local user (@johndoe:server.name), a remote server (matrix.org), or all remote/local servers (*) can be authorized. Give the matrix server_name, not the full domain/url.",
 					"fr": "On peut autoriser le compte administrateur seul (admin), tous les comptes synapse locaux (local), un compte local ou distant (@johndoe:server.name), un serveur distant (matrix.org), ou tous les serveurs remote/local (*). Donner le nom du serveur matrix, pas le domaine/url complet."
