@@ -164,7 +164,7 @@ base_directory=$PWD
 cd $final_path
 ls
 python3 -m pip install -r requirements.txt -r optional-requirements.txt
-python3 -m pip install --upgrade .[all]
+HOME="./" python3 -m pip install --upgrade .[all]
 cd $base_directory
 
 #=================================================
