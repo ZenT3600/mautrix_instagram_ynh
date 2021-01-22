@@ -1,10 +1,10 @@
 {
-	"name": "Matrix-Whatsapp bridge",
-	"id": "mautrix_whatsapp",
+	"name": "Matrix-Instagram Bridge",
+	"id": "mautrix_instagram",
 	"packaging_format": 1,
 	"description": {
-		"en": "A WhatsApp puppeting bridge for Matrix/Synapse.",
-		"fr": "Passerelle WhatsApp pour Matrix/Synapse."
+		"en": "An Instagram puppeting bridge for Matrix/Synapse.",
+		"fr": "Passerelle Instagram pour Matrix/Synapse."
 	},
 	"version": "0.1.5~ynh1",
 	"url": "https://github.com/tulir/mautrix-whatsapp",

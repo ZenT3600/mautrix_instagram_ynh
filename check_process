@@ -23,9 +23,9 @@
 		sudo yunohost app install https://github.com/YunoHost-Apps/synapse_ynh/ -a "domain=$domain&server_name=$server_name&is_public=$is_public&jitsi_server=$jitsi_server" --force
 	; Manifest
 		# mautrix_whatsapp manifest parameters
-		port="8449"	(PORT)
+		port="8448"	(PORT)
 		synapsenumber="1"
-		whatsappbot="whatsappbot"
+		whatsappbot="instagrambot"
 		bot_is_synapse_admin="Yes"
 		botadmin="@johndoe:synapsedomain.tld"	(USER)
 		botusers="@johndoe:synapsedomain.tld"
