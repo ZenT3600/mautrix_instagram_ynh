@@ -158,25 +158,11 @@ ynh_setup_source --dest_dir="$final_path"
 #=================================================
 # BUILD GO
 #=================================================
-ynh_script_progression --message="Build with golang..." --weight=194
-
+ynh_script_progression --message="Installing with pip..." --weight=194
 # Build mautrix-whatsapp
 base_directory=$PWD
-export GOPATH="$final_path"_src
-export GOCACHE="$GOPATH"/.cache/go-build
 cd $final_path
-
-if [ $encryption = true ]
-then
-# build with libolm3 end-to-bridge encryption
-./build.sh
-else
-# build without end-to-bridge encryption
-./build.sh -tags nocrypto
-fi
-# build with libolm2 encryption
-# ./build.sh -tags nosas
-
+pip install --upgrade mautrix-instagram[all]
 cd $base_directory
 
 #=================================================
