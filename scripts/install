@@ -161,8 +161,9 @@ ynh_setup_source --dest_dir="$final_path"
 ynh_script_progression --message="Installing with pip..." --weight=194
 # Build mautrix-whatsapp
 base_directory=$PWD
-cd $final_path
 pip install --upgrade mautrix-instagram[all]
+cd $final_path
+
 cd $base_directory
 
 #=================================================
@@ -187,7 +188,7 @@ ynh_add_systemd_config --service=$app
 #=================================================
 # SET MAUTRIX-WHATSAPP CONFIG
 #=================================================
-ynh_script_progression --message="Configuring Mautrix-WhatsApp..." --weight=2
+ynh_script_progression --message="Configuring Mautrix-Instagram..." --weight=2
 
 # Configure Mautrix-WhatsApp
 
