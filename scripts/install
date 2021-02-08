@@ -165,7 +165,7 @@ cd $final_path
 ls
 python3 -m pip install -r requirements.txt
 python3 -m pip install "pillow>=4,<9"
-#HOME="./" python3 -m pip install --upgrade .[all]
+HOME="./" python3 -m pip install --upgrade .
 cd $base_directory
 
 #=================================================
