@@ -85,7 +85,7 @@
 					"en": "The WhatsApp bot administrator does not need to be a local synapse account.",
 					"fr": "Le compte administrateur du robot WhatsApp peut ne pas être un compte local synapse."
 				},
-				"default": "@navanchauhan:yewsavin.com"
+				"default": "@navan:pi4.navan.dev"
 			},
 			{
 				"name": "botusers",
