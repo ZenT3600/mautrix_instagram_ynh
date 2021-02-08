@@ -6,7 +6,7 @@
 		"en": "An Instagram puppeting bridge for Matrix/Synapse.",
 		"fr": "Passerelle Instagram pour Matrix/Synapse."
 	},
-	"version": "0.1.5~ynh1",
+	"version": "0.1.5~ynh2",
 	"url": "https://github.com/tulir/mautrix-whatsapp",
 	"license": "AGPL-3.0-or-later",
 	"maintainer": {
