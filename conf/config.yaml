@@ -21,13 +21,13 @@ appservice:
     port: __PORT__
     max_body_size: 1
     # Database config.
-    database: postgres://__MAUTRIX_WHATSAPP_USER__:__MAUTRIX_WHATSAPP_DB_PWD__@localhost:5432/__MAUTRIX_WHATSAPP_DB_NAME__
+    database: postgres://__MAUTRIX_INSTAGRAM_USER__:__MAUTRIX_INSTAGRAM_DB_PWD__@localhost:5432/__MAUTRIX_INSTAGRAM_DB_NAME__
 
     # The unique ID of this appservice.
     #id: whatsapp
-    id: __WHATSAPPBOT__
+    id: __INSTAGRAMBOT__
     # Appservice bot details.
-    bot_username: __WHATSAPPBOT__
+    bot_username: __INSTAGRAMBOT__
     bot_displayname: Instagram bridge bot
     bot_avatar: mxc://maunium.net/JxjlbZUlCPULEeHZSwleUXQv
 

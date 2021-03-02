@@ -38,11 +38,11 @@
 				"default": "1"
 			},
 			{
-				"name": "whatsappbot",
+				"name": "instagrambot",
 				"type": "string",
 				"ask": {
-					"en": "Choose a local synapse user name for the WhatsApp bot",
-					"fr": "Choisissez un nom d'utilisateur synapse local pour le robot WhatsApp"
+					"en": "Choose a local synapse user name for the Instagram bot",
+					"fr": "Choisissez un nom d'utilisateur synapse local pour le robot Instagram"
 				},
 				"example": "instagrambot",
 				"help": {
