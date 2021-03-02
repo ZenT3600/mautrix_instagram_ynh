@@ -6,7 +6,7 @@ After=matrix-synapse.service
 Type=simple
 User=__APP__
 WorkingDirectory=/opt/yunohost/__APP__
-ExecStart=python3 -m mautrix_instagram -c=/opt/yunohost/__APP__/config.yaml >> /var/log/__APP__/log.log 2>&1
+ExecStart=python3 -m mautrix_instagram -c=/opt/yunohost/__APP__/config.yaml
 Restart=always
 RestartSec=3
 
