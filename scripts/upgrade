@@ -119,19 +119,11 @@ ynh_install_extra_app_dependencies --repo="http://http.debian.net/debian buster-
 #=================================================
 # Build mautrix-whatsapp
 base_directory=$PWD
-export GOPATH="$final_path"_src
-export GOCACHE="$GOPATH"/.cache/go-build
 cd $final_path
-if [ $encryption = true ]
-then
-# build with libolm3 end-to-bridge encryption
-./build.sh
-else
-# build without end-to-bridge encryption
-./build.sh -tags nocrypto
-fi
-# build with libolm2 encryption
-# ./build.sh -tags nosas
+ls
+python3 -m pip install -r requirements.txt
+python3 -m pip install "pillow>=4,<9"
+HOME="./" python3 setup.py install
 cd $base_directory
 
 #=================================================
