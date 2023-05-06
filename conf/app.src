@@ -1,5 +1,5 @@
-  SOURCE_URL=https://github.com/tulir/mautrix-instagram/archive/a44cd2bdceec7561c990c0c3dadddcd9b1a286d4.zip
-SOURCE_SUM=df15adcd9fad6c01dcb6e3f3df68239e02d2fd6c0976679cbf3bdc7cb0f6e51f
+  SOURCE_URL=https://github.com/mautrix/instagram/archive/refs/tags/v0.2.3.zip
+SOURCE_SUM=698336f2ddd869cd06be258e98679a2b810b97e7bd95881c445305dfd144d796
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=zip
 SOURCE_IN_SUBDIR=true
